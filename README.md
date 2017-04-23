@@ -7,7 +7,7 @@ The goal of this assignment is to submit a tiny dataset that contains statistics
 Since the volunteers for the experiment were randomly partitioned in two different sets (train and test) I have gathered and cleaned each of these sets separately and then joined them into one dataframe that I finally wrote into a .txt file.
 
 ## Features and activities
-Since the features and the activities were common for both sets, in a first step, I retrieved this information in two variables: 
+Since the features and the activities were common for both sets, in a first step, I stored this information in two variables: 
 * **Header_Features**: vector containing the 561 different features. 
 * **Activity_Label**: dataframe containing the six different activities.
 
