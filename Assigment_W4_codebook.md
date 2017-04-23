@@ -2,9 +2,9 @@
 This is the code book for the dataset requested in the Getting and Cleaning Data Course Project
 ## Identifiers
 - `subject_id` - Subject’s ID.
-	Range: 1..30
+Range: 1..30
 - `activity` - Each of the six different activities the subjects performed in the experiment.
-	Range:
+	Enumerated values:
 		1.	 WALKING
 		2.	 WALKING_UPSTAIRS
 		3.	 WALKING_DOWNSTAIRS
@@ -13,25 +13,25 @@ This is the code book for the dataset requested in the Getting and Cleaning Data
 		6.	 LAYING
 
 ## Measurements
-- `avg_tBodyAcc_mean_X/Y/Z` - Average of the tBodyAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyAcc_mean_X/Y/Z` - Average of the tBodyAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tBodyAcc_std_ X/Y/Z` - Average of the tBodyAcc_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyAcc_std_ X/Y/Z` - Average of the tBodyAcc_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tGravityAcc_mean_X/Y/Z` - Average of the tGravityAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tGravityAcc_mean_X/Y/Z` - Average of the tGravityAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tGravityAcc_std_X/Y/Z` - Average of the tGravityAcc_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tGravityAcc_std_X/Y/Z` - Average of the tGravityAcc_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1 
-- `avg_tBodyAccJerk_mean_X/Y/Z` - Average of the tBodyAccJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyAccJerk_mean_X/Y/Z` - Average of the tBodyAccJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tBodyAccJerk_std_X/Y/Z` - Average of the tBodyAccJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyAccJerk_std_X/Y/Z` - Average of the tBodyAccJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tBodyGyro_mean_X/Y/Z` - Average of the tBodyGyro_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyGyro_mean_X/Y/Z` - Average of the tBodyGyro_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tBodyGyro_std_X/Y/Z` - Average of the tBodyGyro_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyGyro_std_X/Y/Z` - Average of the tBodyGyro_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1-
-- `avg_tBodyGyroJerk_mean_X/Y/Z` - Average of the tBodyGyroJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyGyroJerk_mean_X/Y/Z` - Average of the tBodyGyroJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_tBodyGyroJerk_std_X/Y/Z` - Average of the tBodyGyroJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_tBodyGyroJerk_std_X/Y/Z` - Average of the tBodyGyroJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
 - `avg_tBodyAccMag_mean` - Average of the tBodyAccMag_mean feature for each activity and subject.
 	Range:  -1..1
@@ -53,17 +53,17 @@ This is the code book for the dataset requested in the Getting and Cleaning Data
 	Range:  -1..1
 - `avg_tBodyGyroJerkMag_std` - Average of the tBodyGyroJerkMag_std feature for each activity and subject.
 	Range:  -1..1
-- `avg_fBodyAcc_mean_X/Y/Z` - Average of the fBodyAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_fBodyAcc_mean_X/Y/Z` - Average of the fBodyAcc_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
 - `avg_fBodyAcc_std_X/Y/Z` - Average of the fBodyAcc_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
 	Range:  -1..1
-- `avg_fBodyAccJerk_mean_X/Y/Z` - Average of the fBodyAccJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_fBodyAccJerk_mean_X/Y/Z` - Average of the fBodyAccJerk_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_fBodyAccJerk_std_X/Y/Z` - Average of the fBodyAccJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_fBodyAccJerk_std_X/Y/Z` - Average of the fBodyAccJerk_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_fBodyGyro_mean_X/Y/Z` - Average of the fBodyGyro_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_fBodyGyro_mean_X/Y/Z` - Average of the fBodyGyro_mean feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
-- `avg_fBodyGyro_std_X/Y/Z` - Average of the fBodyGyro_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions)
+- `avg_fBodyGyro_std_X/Y/Z` - Average of the fBodyGyro_std feature for each activity and subject (note: 'X/Y/Z' is used to denote each of the 3-axial signals in the X, Y and Z directions).
 	Range:  -1..1
 - `avg_fBodyAccMag_mean` - Average of the fBodyAccMag_mean feature for each activity and subject.
 	Range:  -1..1
