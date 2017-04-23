@@ -1,4 +1,4 @@
-# Sensors data statistics dictionary
+# Getting and Cleaning Data Course Project dictionary
 This is the code book for the dataset requested in the Getting and Cleaning Data Course Project
 ## Identifiers
 - `subject_id` - Subject’s ID.
