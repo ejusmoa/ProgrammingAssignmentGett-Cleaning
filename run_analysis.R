@@ -1,4 +1,4 @@
-Assigment_W4 <- function() {
+run_analysis <- function() {
         library(plyr)
         library(dplyr)
         # Reads the features from features.txt and stores them in a vector
